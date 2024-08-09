@@ -102,6 +102,12 @@ func prog() string  {
 	fmt.Println("13 - Atan")
 	fmt.Println("14 - Sqrt")
 	fmt.Println("15 - Cbrt")
+	fmt.Println("16 - Logarithm (base e)")
+	fmt.Println("17 - Logarithm (base 10)")
+	fmt.Println("18 - Absolute value ")
+	fmt.Println("19 - Ceiling value")
+	fmt.Println("20 - Floor value ")
+	fmt.Println("21 - Factorial ")
 	fmt.Println("\n For Quit (Enter  quit ) ")
 
 	var choice string 
