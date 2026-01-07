@@ -115,6 +115,12 @@ func prog() string  {
 	return choice
 }
 
+func print(){
+	fmt.Println("Calculator Operations")
+	fmt.Println("1. Sum")
+	fmt.Println("2. Subtraction")
+	fmt.Println("3. Multiplication")
+}
 func readTwoNumbers() (int, int) {
 	var x, y int
 	fmt.Println("Enter two numbers:")
